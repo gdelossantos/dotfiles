@@ -1,0 +1,121 @@
+# >> History <<
+# 2015-09-26: Migrated majority of the configuration to this file from .bash_profile.
+# 2018-02-21: Added /usr/local/sbin to PATH. Commented out the Visor configuration
+# 2018-04-19: Added 'jenv' to manage environments
+# 2019-12-12: Added GO related variables
+
+# Homebrew home
+HOMEBREW_PREFIX=/usr/local
+HOMEBREW_CELLAR=$HOMEBREW_PREFIX/Cellar
+
+# DocBook links: added via homebrew
+export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
+
+ANT_HOME=$HOME/bin/ant
+# JBOSS path
+#export JBOSS_HOME=$HOME/bin/jboss
+export JBOSS_HOME=$HOME/bin/wildfly
+# Use Homebrew
+#GROOVY_HOME=$HOMEBREW_CELLAR/groovy/2.0.5/libexec
+GROOVY_HOME=/usr/local/opt/groovy/libexec
+#GRAILS_HOME=$HOMEBREW_CELLAR/grails/2.1.2/libexec
+#JYTHON_HOME=$HOME/bin/jython
+#ROO_HOME=$HOME/bin/spring-roo
+SENCHA_HOME=$HOME/bin/Sencha
+
+# GO related paths
+export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+
+# Add in /usr/local/sbin on the path. Homebrew identified that it was not added.
+if [[ "$PATH" != *"/usr/local/sbin"* ]];then
+	export PATH=/usr/local/sbin:$PATH
+fi
+
+# Ensure that /usr/local/bin is on the path. Apparently it is not added by default
+if [[ "$PATH" != *"/usr/local/bin"* ]];then
+	export PATH=/usr/local/bin:$PATH
+fi
+
+# I don't want a very long path setting so I split it to multiple lines.
+if [[ "$PATH" != *"$HOME/bin"* ]]; then
+	export PATH=.:$HOME/bin:$ANT_HOME/bin:$PATH
+fi
+
+# Add in the Sencha paths
+if [[ "$PATH" != *"$SENCHA_HOME"* ]]; then
+	export PATH="$PATH:$SENCHA_HOME/Cmd"
+fi
+
+# Add in the Go paths
+if [[ "$PATH" != *"$GOBIN"* ]]; then
+	export PATH=$PATH:$GOBIN
+fi
+
+NODE_PATH=/usr/local/lib/node
+NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules
+export NODE_PATH
+
+JAVA_HOME=`/usr/libexec/java_home`
+export JAVA_HOME
+
+# Add colors to the bash terminal
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxDxegedabagaced
+
+# Change PS1 to include git branch name
+# 2020-06-15: Disabled in favor of powerline-go below
+#PS1='[\h: \W] '
+#PS1='[\h: \W$(__git_ps1 " (%s)")] '
+#export PS1
+
+# 2020-06-15: Add powerline-go
+function _update_ps1() {
+    PS1="$($GOPATH/bin/powerline-go -error $? -hostname-only-if-ssh -newline)"
+}
+
+if [ "$TERM" != "linux" ] && [ -f "$GOPATH/bin/powerline-go" ]; then
+    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+fi
+
+# Bash completion from HomeBrew
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+	. `brew --prefix`/etc/bash_completion
+fi
+
+# Fix for the visor bug
+## 2018-02-21: I haven't been using Visor for a looooong time
+#defaults write com.apple.Terminal VisorTerminal -dict-add 'Rows' '15'
+#defaults write com.apple.Terminal VisorTerminal -dict-add 'ExecutionString' 'set -o ignoreeof; clear'
+
+# WebSphere Liberty Profile Path
+WLP_PATH=$HOME/bin/wlp/bin
+export WLP_PATH
+
+# Initialize jenv
+if [[ "$PATH" != *".jenv"* ]]; then
+ eval "$(jenv init -)"
+fi
+
+# Initialize Haskell GHC
+[ -f "${GHCUP_INSTALL_BASE_PREFIX:=$HOME}/.ghcup/env" ] && source "${GHCUP_INSTALL_BASE_PREFIX:=$HOME}/.ghcup/env"
+
+# Add Haskell 'hlint' path
+if [[ "$PATH" != *"$HOME/.local/bin"* ]]; then
+	export PATH=$PATH:$HOME/.local/bin
+fi
+
+alias xattr_text="xattr -wx com.apple.FinderInfo '54 45 58 54 21 52 63 68 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00'"
+alias omacs="open -a Emacs"
+alias ovim="open -a MacVim"
+#alias seapps="ssh eapps -t -l ftpuser tmux a"
+#alias scharina="ssh charina -t -l ftpuser tmux a"
+alias startebi="${WLP_PATH}/server start ebi-server"
+alias stopebi="${WLP_PATH}/server stop ebi-server"
+alias cdsep='cd /Users/bartd/Projects/LTA/sep/src/'
+alias cdtaba='cd /Users/bartd/Projects/LTA/sep/taba/'
+alias cdabt='cd /Users/bartd/Projects/LTA/abt/full_abt_p2_src/'
+alias cdcbt='cd /Users/bartd/Projects/LTA/cbt/full_cbt_src/'
+alias cdutil='cd /Users/bartd/Projects/LTA/sep/sep_utils/'
+alias cdtrello='cd /Users/bartd/Projects/clojure_projects/tools/trello_client'
+alias cdscrum='cd /Users/bartd/Projects/LTA/scrum'

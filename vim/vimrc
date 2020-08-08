@@ -1,0 +1,76 @@
+execute pathogen#infect()
+source $VIMRUNTIME/vimrc_example.vim
+
+set cmdheight=2
+set ignorecase
+set nowrap
+set nobackup
+set nocompatible
+set autoindent
+set autowriteall
+
+" Show lightline
+set laststatus=2
+
+" Save the file
+nmap <F2> :w<CR>
+imap <F2> <Esc>:w<CR>
+
+" Search down into subfolders
+set path+=**
+
+" Display all matching files when we tab complete
+set wildmenu
+
+set tabstop=4
+set shiftwidth=4
+
+syntax enable
+set background=dark
+colorscheme solarized
+
+if has("gui_running")
+	set autochdir
+"	set guifont=ProggyCleanTT:h16
+
+" Note: Made use of solarized
+" Use the 'oceandeep' color settings
+"	colorscheme oceandeep
+"	colorscheme inkpot
+
+" Set window size *only* on the GUI. It will look funny on a terminal.
+	set lines=30
+	set columns=120
+
+" Open file. Browsing files only works on a GUI environment.
+	nmap <F3> :bro e<CR>
+	imap <F3> <Esc>:bro e<CR>
+endif
+
+" Gradle syntax coloring
+au BufNewFile,BufRead *.gradle set filetype=groovy
+
+set diffexpr=MyDiff()
+function MyDiff()
+  let opt = '-a --binary '
+  if &diffopt =~ 'icase' | let opt = opt . '-i ' | endif
+  if &diffopt =~ 'iwhite' | let opt = opt . '-b ' | endif
+  let arg1 = v:fname_in
+  if arg1 =~ ' ' | let arg1 = '"' . arg1 . '"' | endif
+  let arg2 = v:fname_new
+  if arg2 =~ ' ' | let arg2 = '"' . arg2 . '"' | endif
+  let arg3 = v:fname_out
+  if arg3 =~ ' ' | let arg3 = '"' . arg3 . '"' | endif
+  let eq = ''
+  if $VIMRUNTIME =~ ' '
+    if &sh =~ '\<cmd'
+      let cmd = '""' . $VIMRUNTIME . '\diff"'
+      let eq = '"'
+    else
+      let cmd = substitute($VIMRUNTIME, ' ', '" ', '') . '\diff"'
+    endif
+  else
+    let cmd = $VIMRUNTIME . '\diff'
+  endif
+  silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
+endfunction
