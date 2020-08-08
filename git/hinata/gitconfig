@@ -1,0 +1,32 @@
+[http]
+	sslVerify = false
+[alias]
+	from-sneaker = pull sneaker 
+	to-sneaker = push sneaker
+[user]
+	name = Gilbert de los Santos
+	email = gilbert.delossantos@gmail.com
+[core]
+	excludesfile = /Users/bartd/.gitignore_global
+	autocrlf = input
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[diff]
+	tool = opendiff
+[difftool "diffmerge"]
+	cmd = diffmerge.sh $LOCAL $REMOTE
+[push]
+	default = simple
+[commit]
+	template = /Users/bartd/.stCommitMsg
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[gui]
+	recentrepo = /Users/bartd/extracted/ehcache3
