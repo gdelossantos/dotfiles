@@ -1,0 +1,37 @@
+[http]
+	sslVerify = false
+[core]
+	eol = crlf
+	autocrlf = true
+[alias]
+	serve = daemon --verbose --export-all --enable=upload-pack --enable=receive-pack --base-path=.git --reuseaddr --strict-paths .git/
+	pl = pull --rebase
+	to-sneaker = push sneaker
+[user]
+	name = Bart (DN)
+	email = gilbert_de_los_santos@lta.gov.sg
+[push]
+	default = matching
+[merge]
+	tool = kdiff3
+[diff]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+	keepBackup = false
+	trustExitCode = false
+[difftool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+	keepBackup = false
+	trustExitCode = false
+	
+	
+[gui]
+	recentrepo = D:/Projects/bs/bs28/git/bs28_taba_git
+[credential]
+	helper = manager
+[difftool "sourcetree"]
+	cmd = '' \"$LOCAL\" \"$REMOTE\"
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = true

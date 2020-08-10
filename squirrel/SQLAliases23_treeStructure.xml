@@ -1,0 +1,1129 @@
+<Beans>
+    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+        <aliasIdentifier/>
+        <colorRGB>-1</colorRGB>
+        <expanded>true</expanded>
+        <folderName>AliasRootNode</folderName>
+        <kids Indexed="true">
+            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                <aliasIdentifier/>
+                <colorRGB>-1</colorRGB>
+                <expanded>true</expanded>
+                <folderName>Dev</folderName>
+                <kids Indexed="true">
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier/>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>true</expanded>
+                        <folderName>DIT</folderName>
+                        <kids Indexed="true">
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-272813d7:152a6900b39:-7eea</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-272813d7:152a6900b39:-7eee</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>bdf19ba:14619442788:-7f23</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>bdf19ba:14619442788:-7f21</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>2ceff122:1633f156746:-7eb1</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>2e39f9bf:1682b5fa69b:-7e76</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>bdf19ba:14619442788:-7f25</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>309b0558:1686033d5b9:-7e75</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>5781c349:151c3553d2e:-7ef4</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>6791d70b:1634dce20f0:-7ea8</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>6791d70b:1634dce20f0:-7ea5</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>46822228:165e538cf05:-7e82</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>bdf19ba:14619442788:-7f1d</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>58f33ae8:15e753b9a2a:-7ea5</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>bdf19ba:14619442788:-7f1f</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>17ec04e0:16342f08030:-7eae</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>fbc4404:164cb905a5d:-7e8e</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>bdf19ba:14619442788:-7f27</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>58f33ae8:15e753b9a2a:-7ea8</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-6b896295:1699502f61c:-7e30</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-16bb3792:1727cf86759:-7e12</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>3709240b:15f14a27732:-7e9a</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-780a155f:169c267523c:-7e2b</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>true</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>6f31a301:163626d4922:-7e9c</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                        </kids>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier/>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>true</expanded>
+                        <folderName>Dev1</folderName>
+                        <kids Indexed="true">
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-3320f5ca:141a5b5409a:-7f5d</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-3320f5ca:141a5b5409a:-7f5d</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>5e5b9cf3:16d431b6c21:-7e24</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-17230415:1412b95a9c8:-7f70</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>2b657aab:170c91d77a2:-7e18</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-62cd7cd6:16ab5ade717:-7e22</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-640797cb:16cb458a925:-7e29</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-4863a289:167a1a13267:-7e7c</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-17230415:1412b95a9c8:-7f70</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>5781c349:151c3553d2e:-7ef5</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>39b7ec23:163b08d04c0:-7e8f</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-5f234223:16a1edf4432:-7e27</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-48957713:165cde21e19:-7e85</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>13e796ac:1518043d644:-7ef9</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-3320f5ca:141a5b5409a:-7f5f</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>1d7b25dc:16b738bdab1:-7e32</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-3320f5ca:141a5b5409a:-7f5f</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-54875e6d:15cd466daec:-7eac</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-3a9393ca:1417da4ee5b:-7f68</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-3a9393ca:1417da4ee5b:-7f68</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>3ece01e6:163865ca599:-7e96</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-28f7ce66:1414f44a92a:-7f6b</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-28f7ce66:1414f44a92a:-7f6b</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-441e5683:16912ffad33:-7e37</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>3ece01e6:163865ca599:-7e90</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>535ec839:16874257874:-7e71</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>20e6816c:170aea8b5d9:-7e1a</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                        </kids>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier/>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName>Dev2</folderName>
+                        <kids Indexed="true">
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>4bd67317:1555e29e7d4:-7ed0</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-2221c07c:1555d05d246:-7edb</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>4bd67317:1555e29e7d4:-7ece</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>4bd67317:1555e29e7d4:-7ed6</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>4bd67317:1555e29e7d4:-7ed3</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                        </kids>
+                        <selected>false</selected>
+                    </Bean>
+                </kids>
+                <selected>false</selected>
+            </Bean>
+            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                <aliasIdentifier/>
+                <colorRGB>-1</colorRGB>
+                <expanded>true</expanded>
+                <folderName>Functional</folderName>
+                <kids Indexed="true">
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>-3849fe3b:1645ea766a8:-7e67</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>-669e4680:152c9fdb541:-7ee6</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>7e5c74f2:15f817e70a4:-7e96</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>-5ebef824:1491d03bd8a:-7f2d</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>-22d599c7:15083413a7c:-7efd</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>-5ebef824:1491d03bd8a:-7f2c</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>-5ebef824:1491d03bd8a:-7f2f</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>6cc5f304:142c05d6dd4:-7f4b</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>6cc5f304:142c05d6dd4:-7f4b</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>-49c03097:1531b50529a:-7ee0</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>-77ac03b1:164d15c4dc6:-7e8e</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>-69c2b33f:165325dbf2e:-7e88</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>3e41c4c4:15824f26308:-7eb6</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>-421d3583:14274213adf:-7f57</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>-10b28444:1427eef9144:-7f53</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>-10b28444:1427eef9144:-7f53</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>1da22cba:15eec3dc5c1:-7ea1</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>-7dbafd7f:1456e586944:-7f2e</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>-3849fe3b:1645ea766a8:-7e75</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>-3849fe3b:1645ea766a8:-7e6f</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                </kids>
+                <selected>false</selected>
+            </Bean>
+            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                <aliasIdentifier/>
+                <colorRGB>-1</colorRGB>
+                <expanded>false</expanded>
+                <folderName>Functional (Test/Prod)</folderName>
+                <kids Indexed="true">
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>666aaf80:1616a636243:-7e81</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>48c9e67a:15ac732ad7b:-7eb2</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>-a3f10ec:163b47b65b4:-7e8a</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>5323db7e:1576a74c172:-7ebf</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>5323db7e:1576a74c172:-7ec1</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>673cfa37:1578ee22f6e:-7eba</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                </kids>
+                <selected>false</selected>
+            </Bean>
+            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                <aliasIdentifier/>
+                <colorRGB>-1</colorRGB>
+                <expanded>true</expanded>
+                <folderName>Load Test</folderName>
+                <kids Indexed="true">
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>1b9446e7:1643a585318:-7e82</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>1b9446e7:1643a585318:-7e80</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>4140c800:1442f8334be:-7f41</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>4140c800:1442f8334be:-7f41</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>-7c3a530c:1495abe1570:-7f27</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>5db120d4:144b0004cae:-7f32</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                </kids>
+                <selected>false</selected>
+            </Bean>
+            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                <aliasIdentifier/>
+                <colorRGB>-1</colorRGB>
+                <expanded>true</expanded>
+                <folderName>Local</folderName>
+                <kids Indexed="true">
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>4108e566:1461969181f:-7f2f</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>-17dd3869:15fe3e0f83a:-7e8f</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>-3f0d7c5b:145cb66f321:-7f26</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>-33df35b2:164972d9355:-7e63</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>335b439e:14e04efbf6c:-7f02</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                </kids>
+                <selected>false</selected>
+            </Bean>
+            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                <aliasIdentifier/>
+                <colorRGB>-1</colorRGB>
+                <expanded>false</expanded>
+                <folderName>SeP</folderName>
+                <kids Indexed="true">
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>bdf19ba:14619442788:-7f2f</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>bdf19ba:14619442788:-7f2b</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>bdf19ba:14619442788:-7f31</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>bdf19ba:14619442788:-7f2d</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>-88da913:1400e9ac3de:-7f4d</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                </kids>
+                <selected>false</selected>
+            </Bean>
+            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                <aliasIdentifier/>
+                <colorRGB>-1</colorRGB>
+                <expanded>false</expanded>
+                <folderName>Test/Test</folderName>
+                <kids Indexed="true">
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                            <string>6fd7fade:147ceb62e41:-7f33</string>
+                        </aliasIdentifier>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>false</expanded>
+                        <folderName/>
+                        <kids Indexed="true"/>
+                        <selected>false</selected>
+                    </Bean>
+                </kids>
+                <selected>false</selected>
+            </Bean>
+            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                <aliasIdentifier/>
+                <colorRGB>-1</colorRGB>
+                <expanded>true</expanded>
+                <folderName>Prod</folderName>
+                <kids Indexed="true">
+                    <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                        <aliasIdentifier/>
+                        <colorRGB>-1</colorRGB>
+                        <expanded>true</expanded>
+                        <folderName>Full ABT</folderName>
+                        <kids Indexed="true">
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-533eeecf:16517bbfbe7:-7e8b</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                            <Bean Class="net.sourceforge.squirrel_sql.client.gui.db.AliasFolderState">
+                                <aliasIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+                                    <string>-3ac7be5b:16669071c7c:-7e7e</string>
+                                </aliasIdentifier>
+                                <colorRGB>-1</colorRGB>
+                                <expanded>false</expanded>
+                                <folderName/>
+                                <kids Indexed="true"/>
+                                <selected>false</selected>
+                            </Bean>
+                        </kids>
+                        <selected>false</selected>
+                    </Bean>
+                </kids>
+                <selected>false</selected>
+            </Bean>
+        </kids>
+        <selected>false</selected>
+    </Bean>
+</Beans>
