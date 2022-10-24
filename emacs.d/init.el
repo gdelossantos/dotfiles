@@ -28,14 +28,16 @@
   ;; (add-to-list 'package-archives
   ;; 			   '("marmalade" . "https://marmalade-repo.org/packages/")
   ;; 			   t)
-  (add-to-list 'package-archives
-			   '("marmalade" . "http://marmalade-repo.org/packages/")
-			   t)
+  ;; (add-to-list 'package-archives
+  ;; 			   '("marmalade" . "http://marmalade-repo.org/packages/")
+  ;; 			   t)
   
 										; (add-to-list 'package-archives
 										; '("melpa" . "http://melpa.milkbox.net/packages/"))
+  ;; (add-to-list 'package-archives
+  ;; 			   '("melpa-stable" . "https://stable.melpa.org/packages/") t)
   (add-to-list 'package-archives
-			   '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+			   '("melpa" . "https://melpa.org/packages/") t)
   (add-to-list 'package-archives
 			   '("org" . "https://orgmode.org/elpa/") t)
   (add-to-list 'package-archives
@@ -61,18 +63,26 @@
 ;; disable text wrapping
 (set-variable 'truncate-lines 't)
 
+;;; 2020-08-15: Turning off planner. I don't recall using it. Must
+;;; have been a long while.
+;;; ----------------------------------------------------------------------
 ;; set the planner folder
-(setq muse-project-alist 
-      '(("WikiPlanner"
-		 ("/Users/bartd/notebook/plans"
-		  :default "index"
-		  :major-mode planner-mode
-		  :visit-link planner-visit-link))))
-(require 'planner)
+;; (setq muse-project-alist 
+;;       '(("WikiPlanner"
+;; 		 ("/Users/bartd/notebook/plans"
+;; 		  :default "index"
+;; 		  :major-mode planner-mode
+;; 		  :visit-link planner-visit-link))))
+;; (require 'planner)
 
 ;;(set-face-background 'default "white")
 ;; Activate the mousewheel
 ;;(mwheel-install)
+
+;;; 2020-10-21: Adjusted the mouse wheel to be smoother
+;;; The default is jumpy
+(setq mouse-wheel-scroll-amount '(1 ((shift) . 1))) ; one line at a time
+(setq mouse-wheel-progressive-speed nil) ; don't accelerate
 
 ;; Find file at point
 ;;(require 'ffap)
@@ -90,8 +100,19 @@
 ;; (global-set-key [f9] 'compile)			;; compile
 ;; (global-set-key [f7] 'compile)
 
+;;; 2021-07-17 (Sat) enable evil mode in the system
+(global-set-key [f12] 'evil-mode)
+
 ;; Set the Control-Tab sequence to other-window
 (global-set-key [C-tab] 'other-window)
+
+;; 2020-12-01: Need to remap the home and end keys
+;; I got the Tempest Kirin v2 Tenkeyless keyboard with a home and end keys
+;; The built-in mac keyboard don't have these keys so they were not a problem
+(global-set-key (kbd "<home>") 'beginning-of-line)
+(global-set-key (kbd "<end>") 'end-of-line)
+
+
 
 ;; Change the switch buffer key
 ;;(global-set-key [C-rwindow] 'switch-to-buffer)
@@ -113,26 +134,23 @@
  '(c-tab-always-indent nil)
  '(cider-lein-command "/usr/local/bin/lein")
  '(column-number-mode t)
+ '(custom-safe-themes
+   '("1c082c9b84449e54af757bcae23617d11f563fc9f33a832a8a2813c4d7dfb652" "d2e9c7e31e574bf38f4b0fb927aaff20c1e5f92f72001102758005e53d77b8c9" default))
  '(gnuserv-program (concat exec-directory "/gnuserv"))
  '(load-home-init-file t t)
- '(muse-project-alist
-   (quote
-	(("WikiPlanner"
-	  ("/Users/bartd/notebook/plans" "index")))))
  '(org-agenda-files
-   (quote
-	("~/Projects/LTA/bs_work/bs37/01_plan/bs37_notes.org" "~/Projects/LTA/bs_work/bs36/01_plan/bs36_notes.org" "~/Documents/04_lta/002_timesheet/LTA timesheet 2020.txt" "~/Projects/LTA/bs_work/bs35/01_plan/bs35_notes.org" "~/Documents/05_personal_files/bart_gcal.org" "~/Projects/LTA/abt/01_plan/abt_notes.org" "~/Projects/LTA/bos/plan/bos_plan.txt")))
+   '("~/Projects/LTA/prod_issues/prod_issue_notes.org" "/Users/bartd/Projects/LTA/bs_work/bs38/01_plan/bs38_notes.org" "/Users/bartd/Documents/04_lta/002_timesheet/LTA timesheet 2021.txt" "/Users/bartd/Projects/LTA/bs_work/bs37/01_plan/bs37_notes.org" "/Users/bartd/Projects/LTA/bs_work/bs36/01_plan/bs36_notes.org" "/Users/bartd/Projects/LTA/bs_work/bs35/01_plan/bs35_notes.org" "/Users/bartd/Documents/05_personal_files/bart_gcal.org" "/Users/bartd/Projects/LTA/abt/01_plan/abt_notes.org" "/Users/bartd/Projects/LTA/bos/plan/bos_plan.txt"))
  '(org-clock-into-drawer "CLOCKING")
  '(org-enforce-todo-dependencies t)
  '(org-fontify-done-headline t)
  '(org-hide-emphasis-markers nil)
+ '(org-log-done 'time)
  '(org-log-into-drawer t)
- '(org-refile-allow-creating-parent-nodes (quote confirm))
- '(org-refile-use-outline-path (quote file))
+ '(org-refile-allow-creating-parent-nodes 'confirm)
+ '(org-refile-use-outline-path 'file)
  '(org-track-ordered-property-with-tag t)
  '(package-selected-packages
-   (quote
-	(smartscan validate yasnippet-snippets citeproc-org org sokoban ivy minimap json-mode org-magit helm-projectile projectile swiper-helm org-bullets org-plus-contrib powerline clojure-mode yaml-mode use-package rainbow-delimiters paredit markdown-mode magit less-css-mode javascript java-snippets helm-swoop groovy-mode coffee-mode clojure-snippets cider)))
+   '(helm-c-yasnippet helm helm-core flycheck lsp-ui lsp-mode rustic rust-mode evil org-superstar exec-path-from-shell all-the-icons-dired which-key eterm-256color ewal-doom-themes doom-themes doom-modeline all-the-icons treemacs smartscan validate yasnippet-snippets citeproc-org org sokoban ivy minimap json-mode org-magit helm-projectile projectile swiper-helm org-bullets org-plus-contrib powerline clojure-mode yaml-mode use-package rainbow-delimiters paredit markdown-mode magit less-css-mode javascript java-snippets helm-swoop groovy-mode coffee-mode clojure-snippets cider))
  '(parens-require-spaces nil)
  '(scroll-bar-mode nil)
  '(show-paren-mode t)
@@ -149,11 +167,14 @@
  '(default ((t (:inherit nil :stipple nil :background "#002b36" :foreground "#839496" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 120 :width normal :foundry "nil" :family "Jetbrains Mono"))))
  '(org-done ((t (:foreground "PaleGreen" :weight normal :strike-through t))))
  '(org-headline-done ((((class color) (min-colors 16) (background dark)) (:foreground "LightSalmon" :strike-through t))))
- '(rainbow-delimiters-depth-2-face ((t (:foreground "dark cyan"))))
- '(rainbow-delimiters-depth-3-face ((t (:foreground "light green"))))
- '(rainbow-delimiters-depth-4-face ((t (:foreground "Brown"))))
- '(rainbow-delimiters-depth-5-face ((t (:foreground "Red"))))
- '(rainbow-delimiters-depth-6-face ((t (:foreground "Orange")))))
+ '(rainbow-delimiters-depth-1-face ((t (:foreground "dark orange"))))
+ '(rainbow-delimiters-depth-2-face ((t (:foreground "deep pink"))))
+ '(rainbow-delimiters-depth-3-face ((t (:foreground "chartreuse"))))
+ '(rainbow-delimiters-depth-4-face ((t (:foreground "deep sky blue"))))
+ '(rainbow-delimiters-depth-5-face ((t (:foreground "yellow"))))
+ '(rainbow-delimiters-depth-6-face ((t (:foreground "orchid"))))
+ '(rainbow-delimiters-depth-7-face ((t (:foreground "spring green"))))
+ '(rainbow-delimiters-depth-8-face ((t (:foreground "sienna1")))))
 
 (put 'downcase-region 'disabled nil)
 
@@ -188,7 +209,9 @@
 ;(global-set-key "\e#" 'calc-dispatch)
 ;;; End of Calc autoloads.
 
+;;----------------------------------------------------------------------
 ;; Bart specific variables
+;;----------------------------------------------------------------------
 
 ;; Add auto-fill to all org mode files
 (add-hook 'org-mode-hook 'turn-on-auto-fill)
@@ -217,48 +240,54 @@
 		   (string-equal (substring s-down 0 begins-len) begins-down))
 		  (t nil))))
 
+;;; This is used by bart-unix-time
+;;; This simply removes the surrounding parenthesis
+(defun convert-list-to-string (list)
+  "Convert LIST to string."
+  (let* ((string-with-parenthesis (format "%S" list))
+		 (end (- (length string-with-parenthesis) 1)))
+    (substring string-with-parenthesis 1 end)))
+
+;; Utility method to convert unix time to something human readable
+;; decode-time returns a list so have to use convert-list-to-string to be able to insert it in the buffer
+(defun bart-unix-time (seconds)
+  (forward-line)
+  ;(insert (convert-list-to-string (decode-time (seconds-to-time seconds))))
+  (insert (format "%S" (decode-time (seconds-to-time seconds))))
+  (newline))
+
 ;;; The following lines is only valid in Hinata
 (when (string/starts-with system-name "Hinata")
   ;; Load the timesheet file
   (defun bart-ts()
 	(interactive)
-	(find-file "/Users/bartd/Documents/04_lta/002_timesheet/LTA timesheet 2020.txt"))
+	(find-file "/Users/bartd/Documents/04_lta/002_timesheet/LTA timesheet 2022.txt"))
 
   ;; Insert the current time to the buffer (24h format)
   (defun bart-cur-time()
 	(interactive)
 	(insert
-	 (format-time-string "%H:%M"	(current-time))))
+	 (format-time-string "%H:%M" (current-time))))
 
   (defun bart-init()
 	(interactive)
 	(find-file "~/.emacs.d/init.el"))
 
+  ;; Load the RS111 file
+  (defun bart-rs111 ()
+	(interactive)
+	(find-file "~/Projects/LTA/rs111/rs111_notes.org"))
+
+  ;; Load the prod issues list
+  (defun bart-prod-issues ()
+	(interactive)
+	(find-file "~/Projects/LTA/prod_issues/prod_issue_notes.org"))
+  
   ;; Load the bs26 todo file
   (defun bart-todo ()
 	(interactive)
 	(find-file "~/Projects/LTA/bos/plan/bos_plan.txt"))
   
-  (defun bart-bs32 ()
-	(interactive)
-	(find-file "~/Projects/LTA/bs_work/bs32/01_plan/bs32_notes.org"))
-
-  (defun bart-bs33 ()
-	(interactive)
-	(find-file "~/Projects/LTA/bs_work/bs33/01_plan/bs33_notes.org"))
-
-  (defun bart-bs34 ()
-	(interactive)
-	(find-file "~/Projects/LTA/bs_work/bs34/01_plan/bs34_notes.org"))
-
-  (defun bart-bs35 ()
-	(interactive)
-	(find-file "~/Projects/LTA/bs_work/bs35/01_plan/bs35_notes.org"))
-
-  (defun bart-bs35p2 ()
-	(interactive)
-	(find-file "~/Projects/LTA/bs_work/bs35/01_plan/bs35p2_notes.org"))
-
   (defun bart-bs36 ()
 	(interactive)
 	(find-file "~/Projects/LTA/bs_work/bs36/01_plan/bs36_notes.org"))
@@ -267,9 +296,41 @@
 	(interactive)
 	(find-file "~/Projects/LTA/bs_work/bs37/01_plan/bs37_notes.org"))
 
+  (defun bart-bs38 ()
+	(interactive)
+	(find-file "~/Projects/LTA/bs_work/bs38/01_plan/bs38_notes.org"))
+
+  (defun bart-bs39 ()
+	(interactive)
+	(find-file "~/Projects/LTA/bs_work/bs39/01_plan/bs39_notes.org"))
+
+  (defun bart-bs40 ()
+	(interactive)
+	(find-file "~/Projects/LTA/bs_work/bs40/01_plan/bs40_notes.org"))
+
+  (defun bart-bs41 ()
+	(interactive)
+	(find-file "~/Projects/LTA/bs_work/bs41/01_plan/bs41_notes.org"))
+
+  (defun bart-bs42 ()
+	(interactive)
+	(find-file "~/Projects/LTA/bs_work/bs42/01_plan/bs42_notes.org"))
+
   (defun bart-abt ()
 	(interactive)
-	(find-file "~/Projects/LTA/abt/01_plan/abt_notes.org")))
+	(find-file "~/Projects/LTA/abt/01_plan/abt_notes.org"))
+
+  (defun intern-isaac ()
+	(interactive)
+	(find-file "~/Projects/LTA/50_intern/2022_isaac/isaac_notes.org"))
+
+  (defun intern-sng-wei-li ()
+	(interactive)
+	(find-file "~/Projects/LTA/50_intern/2022_sng_wei_li/sng_wei_li_notes.org"))
+  
+  (defun intern-cheong-li-yuan ()
+	(interactive)
+	(find-file "~/Projects/LTA/50_intern/2022_cheong_li_yuan/cheong_li_yuan_notes.org")))
 
 ;;; 2018-04-10
 ;;; The following lines is only valid in the office DN machine
@@ -278,7 +339,10 @@
 		(string/starts-with system-name "LAN-ABT-NB-003"))
   ;; Disable the annoying "ding" when using the KVM
   ;; The KVM using the <scroll> key to switch machines
-  (global-set-key [scroll] 'ignore))
+  (global-set-key [scroll] 'ignore)
+  (defun bart-init ()
+	(interactive)
+	(find-file "C:/Users/santogm/AppData/Roaming/.emacs")))
 
 ;; Load the PHP editing major mode.
 ;(require 'php-mode)
@@ -318,12 +382,16 @@
 (set-keyboard-coding-system 'utf-8)
 (prefer-coding-system 'utf-8)
 
+
+;; 2021-07-05: disabled in favor of doom themes
+;; ----------------------------------------------------------------------
 ;; Enable solarized color scheme
-(require 'color-theme)
-(eval-after-load "color-theme"
-  '(progn
-	 (color-theme-initialize)
-	 (color-theme-solarized-dark)))
+;; ----------------------------------------------------------------------
+;; (require 'color-theme)
+;; (eval-after-load "color-theme"
+;;   '(progn
+;; 	 (color-theme-initialize)
+;; 	 (color-theme-solarized-dark)))
 
 ;;; Code to assist in clojure development
 (defun helm-clojure-headlines ()
@@ -386,8 +454,11 @@
 
 
 ;;; Beautifying the mode line
-(require 'powerline)
-(powerline-default-theme)
+;;; ----------------------------------------------------------------------
+;;; 2021-07-5: disabled in favor of doom modeline
+;;; ----------------------------------------------------------------------
+;;(require 'powerline)
+;;(powerline-default-theme)
 
 ;;;----------------------------------------------------------------------
 ;;; Org specific configuration section
@@ -395,8 +466,12 @@
 
 ;;; 2018-03-13
 ;;; Beautifying the org bullets
-(require 'org-bullets)
-(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+;;; ----------------------------------------------------------------------
+;;; 2021-07-11
+;;; Disaled org-bullets in favor of org-superstar-mode
+;;; ----------------------------------------------------------------------
+;;(require 'org-bullets)
+;;(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
 ;;; 2019-11-13
 ;;; Hide the org emphasis markup
@@ -494,21 +569,35 @@
 ;;;----------------------------------------------------------------------
 ;;; 2019-09-24
 ;;; Disabled this feature for now. Found it annoying instead of being helpful.
-;;;
-;; (use-package company               
-;;   :ensure t
-;;   :defer t
-;;   :init (global-company-mode)
-;;   :config
-;;   (progn
-;;     ;; Use Company for completion
-;;     (bind-key [remap completion-at-point] #'company-complete company-mode-map)
+;;;----------------------------------------------------------------------
+;;; 2021-07-22 (Thu)
+;;; Re-enabled it again for Rust configuration
+;;;----------------------------------------------------------------------
+(use-package company               
+  :ensure t
+  :defer t
+  :custom
+  (company-idle-delay 0.5)
+  ;; :init (global-company-mode)
+  ;; :config
+  ;; (progn
+  ;;   ;; Use Company for completion
+  ;;   (bind-key [remap completion-at-point] #'company-complete company-mode-map)
 
-;;     (setq company-tooltip-align-annotations t
-;;           ;; Easy navigation to candidates with M-<n>
-;;           company-show-numbers t)
-;;     (setq company-dabbrev-downcase nil))
-;;   :diminish company-mode)
+  ;;   (setq company-tooltip-align-annotations t
+  ;;         ;; Easy navigation to candidates with M-<n>
+  ;;         company-show-numbers t)
+  ;;   (setq company-dabbrev-downcase nil))
+  ;; :diminish company-mode
+  :bind
+  (:map company-active-map
+	      ("C-n". company-select-next)
+	      ("C-p". company-select-previous)
+	      ("M-<". company-select-first)
+	      ("M->". company-select-last))
+  (:map company-mode-map
+	("<tab>". tab-indent-or-complete)
+	("TAB". tab-indent-or-complete)))
 
 ;;; 2020-07-27 (Mon)
 ;;; Added yas-snippets to the system
@@ -525,7 +614,13 @@
     (validate-setq yas-snippet-dirs '(yasnippet-snippets-dir)))
 
   (yas-reload-all)
-  (yas-global-mode))
+  ;; 2020-08-17: Need to turn off yas-snippet because it is highjacking
+  ;; C-c & (org-mark-ring-goto)
+  ;; --------------------
+  ;; (yas-global-mode)
+  (add-hook 'prog-mode-hook 'yas-minor-mode)
+  (add-hook 'text-mode-hook 'yas-minor-mode)
+  )
 
 (use-package yasnippet-snippets         ; Collection of snippets
   :ensure t)
@@ -533,6 +628,141 @@
 ;;; 2020-08-09 (Sun)
 ;;; Added smart scan to the system
 (use-package smartscan
-  :defer t
   :config (global-smartscan-mode t))
 
+;;; 2021-07-05 (Mon)
+;;; The iconset is used by doom modeline
+(use-package all-the-icons)
+
+;;;This is a really cool modeline
+(use-package doom-modeline
+  :ensure t
+  :init (doom-modeline-mode 1))
+
+(use-package doom-themes
+  :ensure t
+  :config
+  ;; Global settings (defaults)
+  (setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
+        doom-themes-enable-italic t) ; if nil, italics is universally disabled
+  (load-theme 'doom-vibrant t)
+
+  ;; Enable flashing mode-line on errors
+  (doom-themes-visual-bell-config)
+  ;; Enable custom neotree theme (all-the-icons must be installed!)
+  (doom-themes-neotree-config)
+  ;; or for treemacs users
+  (setq doom-themes-treemacs-theme "doom-atom") ; use "doom-colors" for less minimal icon theme
+  (doom-themes-treemacs-config)
+  ;; Corrects (and improves) org-mode's native fontification.
+  (doom-themes-org-config))
+
+;;; Enable if you want an online keybinding assistant
+;;; I find this quite helpful 
+(use-package which-key
+  :ensure t
+  :config
+  (which-key-mode))
+
+;;; 2021-07-06
+;;; eshell does not take my path settings from shell init
+(when (memq window-system '(mac ns x))
+  (exec-path-from-shell-initialize))
+
+;;; 2021-07-11 (Sun)
+(use-package org-superstar
+  :ensure t
+  :config
+  (add-hook 'org-mode-hook (lambda () (org-superstar-mode 1))))
+
+
+;;; ----------------------------------------------------------------------
+;;; 2021-07-22 (Thu)
+;;; Enabled Rust setup
+;;; ----------------------------------------------------------------------
+;; (use-package rust-mode
+;;   :ensure t
+;;   :config
+;;   (add-hook 'rust-mode-hook
+;; 			(lambda () (setq indent-tabs-mode nil)))
+;;   (setq auto-mode-alist
+;;       (cons '("\\.rs$" . rust-mode) auto-mode-alist)))
+
+(use-package rustic
+  :ensure t
+  :bind (:map rustic-mode-map
+              ("M-j" . lsp-ui-imenu)
+              ("M-?" . lsp-find-references)
+              ("C-c C-c l" . flycheck-list-errors)
+              ("C-c C-c a" . lsp-execute-code-action)
+              ("C-c C-c r" . lsp-rename)
+              ("C-c C-c q" . lsp-workspace-restart)
+              ("C-c C-c Q" . lsp-workspace-shutdown)
+              ("C-c C-c s" . lsp-rust-analyzer-status))
+  :config
+  ;; uncomment for less flashiness
+  ;; (setq lsp-eldoc-hook nil)
+  ;; (setq lsp-enable-symbol-highlighting nil)
+  ;; (setq lsp-signature-auto-activate nil)
+
+  ;; comment to disable rustfmt on save
+  (setq rustic-format-on-save t)
+  (add-hook 'rustic-mode-hook 'rk/rustic-mode-hook))
+
+(defun rk/rustic-mode-hook ()
+  ;; so that run C-c C-c C-r works without having to confirm, but don't try to
+  ;; save rust buffers that are not file visiting. Once
+  ;; https://github.com/brotzeit/rustic/issues/253 has been resolved this should
+  ;; no longer be necessary.
+  (when buffer-file-name
+    (setq-local buffer-save-without-query t)))
+
+(use-package lsp-mode
+  :ensure t
+  :commands lsp
+  :custom
+  ;; what to use when checking on-save. "check" is default, I prefer clippy
+  (lsp-rust-analyzer-cargo-watch-command "clippy")
+  (lsp-eldoc-render-all t)
+  (lsp-idle-delay 0.6)
+  (lsp-rust-analyzer-server-display-inlay-hints t)
+  :config
+  (add-hook 'lsp-mode-hook 'lsp-ui-mode))
+
+(use-package lsp-ui
+  :ensure t
+  :commands lsp-ui-mode
+  :custom
+  (lsp-ui-peek-always-show t)
+  (lsp-ui-sideline-show-hover t)
+  (lsp-ui-doc-enable nil))
+
+(defun company-yasnippet-or-completion ()
+  (interactive)
+  (or (do-yas-expand)
+      (company-complete-common)))
+
+(defun check-expansion ()
+  (save-excursion
+    (if (looking-at "\\_>") t
+      (backward-char 1)
+      (if (looking-at "\\.") t
+        (backward-char 1)
+        (if (looking-at "::") t nil)))))
+
+(defun do-yas-expand ()
+  (let ((yas/fallback-behavior 'return-nil))
+    (yas/expand)))
+
+(defun tab-indent-or-complete ()
+  (interactive)
+  (if (minibufferp)
+      (minibuffer-complete)
+    (if (or (not yas/minor-mode)
+            (null (do-yas-expand)))
+        (if (check-expansion)
+            (company-complete-common)
+          (indent-for-tab-command)))))
+
+(use-package flycheck
+  :ensure t)
