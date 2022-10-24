@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <command>
-	<!--
 	<command alias="edit" value="open -a MacVim $f" type="system"/>
-	-->
 
 	<!--
     I'm having trouble installing a Spotlight searchable MacVim.app using
@@ -21,5 +19,7 @@
 	VS Code is easier to manage on Mac (installation, launch speed, plugins, etc).
 	Decided to use this instead
 	-->
+    <!--
 	<command alias="edit" value="open -a Visual\ Studio\ Code $f" type="system"/>
+    -->
 </command>
