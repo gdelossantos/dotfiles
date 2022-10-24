@@ -16,6 +16,14 @@ set laststatus=2
 nmap <F2> :w<CR>
 imap <F2> <Esc>:w<CR>
 
+" 20200712: Fix for syntax highlighting issue for large files
+nmap <F5> :syntax sync fromstart<CR>
+imap <F5> <ESC>:syntax sync fromstart<CR>
+
+" 20200727: Shortcut for setting syntax to sql
+nmap <S-F5> :set syntax=sql<CR>
+imap <S-F5> <ESC>:set syntax=sql<CR>
+
 " Search down into subfolders
 set path+=**
 
@@ -29,7 +37,15 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+" 2020-11-11
+" Experimenting with line numbers on the left gutter.
+" Not sure if I'm going to like it.
+set number
+highlight LineNr ctermbg=4
+
 if has("gui_running")
+" NOTE: many of these settings will be overwritten by .gvimrc
+
 	set autochdir
 "	set guifont=ProggyCleanTT:h16
 
@@ -38,7 +54,7 @@ if has("gui_running")
 "	colorscheme oceandeep
 "	colorscheme inkpot
 
-" Set window size *only* on the GUI. It will look funny on a terminal.
+" Set window size *only* on the GUI. iT will look funny on a terminal.
 	set lines=30
 	set columns=120
 

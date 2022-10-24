@@ -1,0 +1,6 @@
+# Set the VIM GUI to maximize by default
+set lines=999
+set columns=999
+
+# Set the fort to JetBrains Mono
+set guifont=JetBrainsMono-Regular:h16
